@@ -41,7 +41,7 @@ const LandingPage = () => {
                 Contact
               </Link>
             </div>
-            <Link to="/download" className={styles['navlink2']}>
+            <Link to="/monke" className={styles['navlink2']}>
               <SolidButton
                 button="Monke"
                 rootClassName="rootClassName"
@@ -69,7 +69,7 @@ const LandingPage = () => {
             <span className={styles['text05']}>
               <span>yeah i updated this shit</span>
             </span>
-            <Link to="/download" className={styles['navlink2']}>
+            <Link to="/monke" className={styles['navlink3']}>
               <SolidButton
                 button="Explore Monke"
                 className={styles['component01']}
@@ -130,7 +130,7 @@ const LandingPage = () => {
           <PlaceCard
             city="smol monke"
             image="https://images.unsplash.com/photo-1515444347446-4380c4d8a6ed?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1742&amp;q=80"
-            description="little man, little baby boy.           Photo by Diego Guzmán on Unsplash"
+            description="little man, little baby boy.           Photo by Diego GuzmÃ¡n on Unsplash"
           ></PlaceCard>
           <PlaceCard
             city="Gorilla monke"
@@ -162,10 +162,10 @@ const LandingPage = () => {
           </h1>
           <div className={styles['Links-container1']}>
             <div className={styles['container1']}>
-              <Link to="/aboutus" className={styles['navlink2']}>
+              <Link to="/aboutus" className={styles['navlink4']}>
                 About us
               </Link>
-              <Link to="/contact" className={styles['navlink3']}>
+              <Link to="/contact" className={styles['navlink5']}>
                 Contact
               </Link>
             </div>
