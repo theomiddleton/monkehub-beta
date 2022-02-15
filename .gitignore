@@ -1,0 +1,5 @@
+// .gitignore
+#api keys
+.env
+#node modules
+node_modules/
