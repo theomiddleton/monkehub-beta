@@ -41,13 +41,13 @@ const LandingPage = () => {
                 Contact
               </Link>
             </div>
-            <a href="#main-section" className={styles['link1']}>
+            <Link to="/download" className={styles['navlink2']}>
               <SolidButton
                 button="Monke"
                 rootClassName="rootClassName"
                 className={styles['component']}
               ></SolidButton>
-            </a>
+            </Link>
           </div>
           <svg viewBox="0 0 1024 1024" className={styles['Burger-menu']}>
             <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -69,12 +69,12 @@ const LandingPage = () => {
             <span className={styles['text05']}>
               <span>yeah i updated this shit</span>
             </span>
-            <a href="#main-section" className={styles['link2']}>
+            <Link to="/download" className={styles['navlink2']}>
               <SolidButton
                 button="Explore Monke"
                 className={styles['component01']}
               ></SolidButton>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
