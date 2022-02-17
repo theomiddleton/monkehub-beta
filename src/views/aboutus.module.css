@@ -105,19 +105,22 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
+.video {
+  width: 351px;
+  height: 481px;
+}
 .reject {
   color: var(--dl-color-gray-500);
   height: 100px;
   z-index: 100;
   font-size: 50px;
   align-self: center;
-  box-shadow: 5px 5px 10px 0px #161616;
   font-style: normal;
   font-family: Montserrat;
   font-weight: 500;
   line-height: 1.55;
   border-color: #ffffff;
-  border-style: outset;
+  border-style: inset;
   border-width: 10px;
 }
 .text07 {
