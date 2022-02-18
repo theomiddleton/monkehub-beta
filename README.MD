@@ -1,6 +1,6 @@
 # monkehub beta
 
-/monke-hub.svg
+![hehe](/monke-hub.svg)
 
 ### How to host yourself
 
