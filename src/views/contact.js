@@ -123,6 +123,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     </div>
   )
 }
