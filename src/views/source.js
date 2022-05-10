@@ -19,6 +19,7 @@ const Source = () => {
           content="i like monke, you like monke. i make website for monke. :)"
         />
       </Helmet>
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     </div>
   )
 }
