@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import { useEffect } from 'react';
 import { Helmet } from 'react-helmet'
 
 import SolidButton from '../components/solid-button'
@@ -8,13 +9,20 @@ import PlaceCard from '../components/place-card'
 import projectStyles from '../style.module.css'
 import styles from './landing-page.module.css'
 
+
 const LandingPage = () => {
+
+  useEffect(() => {
+    document.title = "monke hehe"
+  }, [])
+
   return (
     <div className={styles['container']}>
       <Helmet>
         <title>monkehub</title>
         <meta
           name="description"
+
           content="monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke yeah"
         />
         <meta property="og:title" content="monkehub" />
@@ -22,6 +30,7 @@ const LandingPage = () => {
           property="og:description"
           content="i like monke, you like monke. i make website for monke. :)"
         />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"></meta>
       </Helmet>
       <div className={styles['Top-container']}>
         <nav className={styles['Navbar']}>
@@ -81,14 +90,18 @@ const LandingPage = () => {
       <div id="main-section" className={styles['Main']}>
         <video
           src="/playground_assets/monkey%20spinning%20meme%20%5Bwith%20hey%20ya!%20music%5D.mp4"
-          loop="true"
+          loop={true}
           poster="/playground_assets/hqdefault-500h.jpg"
-          controls="true"
+          controls={true}
           className={styles['video']}
         ></video>
         <h1 className={styles['text07']}>Some of our favorite monke</h1>
         <span className={styles['text08']}>:) + new ones</span>
         <div className={styles['Cards-container']}>
+        <script>
+          crossorigin
+          src="https://unpkg.com/react@16/umd/react.production.js"
+        </script>
           <PlaceCard
             city="angy monke"
             image="https://images.unsplash.com/photo-1615038552039-e1b271f14ec8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG1vbmtleXxlbnwwfHx8fDE2NDQ3ODUxODg&amp;ixlib=rb-1.2.1&amp;w=300"
@@ -175,6 +188,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     </div>
   )
 }
