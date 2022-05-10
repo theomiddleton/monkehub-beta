@@ -4,7 +4,7 @@ import { createApi } from "unsplash-js";
 import ReactDOM from "react-dom";
 
 const api = createApi({
-  accessKey: process.env.REACT_APP_API_KEY
+  accessKey: process.env.REACT_APP_UNSPLASH_API_KEY
 });
 
 const PhotoComp = ({ photo }) => {
@@ -29,7 +29,7 @@ const Monke = () => {
 
   useEffect(() => {
     api.search
-      .getPhotos({ query: "monkey" })
+      .getPhotos({ query: "monkey" }, {random})
       .then((result) => {
         setPhotosResponse(result);
       })
@@ -57,6 +57,7 @@ const Monke = () => {
             </li>
           ))}
         </ul>
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
       </div>
     );
   }
