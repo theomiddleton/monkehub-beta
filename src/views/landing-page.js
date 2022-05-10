@@ -76,7 +76,12 @@ const LandingPage = () => {
               One of the places for monke content
             </h2>
             <span className={styles['text05']}>
-              <span>yeah i updated this shit</span>
+              <span>Updated once again, however, <br/> The code is messy and a full rewrite is in order. <br/> </span>
+              <span>In a couple months, expect a whole new website <br/></span>
+              <span>I hope you look forward to monkehub 2.0<br/></span>
+              <span>Also i'll add dark mode if I remember.<br/></span>
+              <span>Also according to google this is a website rated<br/></span>
+              <span>98/100. This is from the google lighthouse test</span>
             </span>
             <Link to="/monke" className={styles['navlink3']}>
               <SolidButton
