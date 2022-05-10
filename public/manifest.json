@@ -1,0 +1,9 @@
+{
+    "short_name": "monke",
+    "name": "monkehub.tech",
+    "description": "a website about monke",
+    "start_url": "/",
+    "display": "minimal-ui",
+    "display_override": ["window-control-overlay", "browser"],
+    "theme_color": "#f79817"
+}
