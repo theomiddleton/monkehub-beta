@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -78,14 +77,6 @@ const Aboutus = () => {
         </div>
       </div>
       <div id="main-section" className={styles['Main']}>
-        <video
-          src="/playground_assets/sever.mp4"
-          poster="/playground_assets/sever.still-500h.png"
-          loop="true"
-          autoPlay="true"
-          muted="true"
-          className={styles['video']}
-        ></video>
         <span className={styles['reject']}>
           <span className={styles['text07']}>
             Reject humanity, Return to
@@ -118,6 +109,7 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     </div>
   )
 }
