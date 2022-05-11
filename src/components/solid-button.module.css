@@ -3,7 +3,7 @@
   position: relative;
 }
 .button {
-  color: var(--dl-color-gray-white);
+  color: #000000;
   border: none;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-doubleunit);
@@ -12,5 +12,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: #f79817;
 }
+
+
 
 
